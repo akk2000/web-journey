@@ -1,0 +1,39 @@
+.navigation{
+    background: #443737;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.navigation a{
+    color: white;
+}
+
+.navigation ul{
+    margin-bottom: 0;
+}
+
+.footer{
+    background: #1a2849;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.content{
+   margin-top:50px;
+   margin-bottom:50px;
+}
+
+.pageimgs{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.imgs{
+    width:500px;
+}
