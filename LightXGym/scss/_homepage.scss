@@ -1,0 +1,40 @@
+/* hero */
+.hero{
+    background-image: url("img/hero-image.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: top center;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero-slogan{
+    color: yellow;
+    font-size: 62px;
+    padding-bottom: 20px;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 6px;
+}
+
+.btn-hero{
+    font-size: 11px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    padding: 12px 30px;
+    background-color: white;
+    color: #444444;
+    border-radius: 100px;
+}
+
+.btn-hero:hover{
+    background-color: transparent;
+    color: white;
+    border: solid 1px;
+}
+
+/* BMI */
+.bmi-inputs{
+    margin: 15px 0;
+}

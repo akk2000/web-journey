@@ -1,0 +1,39 @@
+/* ===== Blog Page ===== */
+.article-meta{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Chilanka', cursive;
+    margin: 30px 0;
+}
+
+.article-meta span{
+    margin: 0 20px;
+}
+
+.blog-content{
+    color: #777;
+    font-family: 'Chilanka', cursive;
+    line-height: 30px;
+}
+
+.btn-continue{
+    background: transparent;
+    color: #777;
+    border: 1px solid #777;
+    border-radius: 100px;
+    font-family: 'Chilanka', cursive;
+}
+
+.btn-continue:hover{
+    color:white;
+    background-color: #bfba55;
+}
+
+.articles hr{
+    margin: 60px 0;
+}
+
+.img-author{
+    width: 52px;
+}

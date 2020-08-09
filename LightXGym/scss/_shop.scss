@@ -1,0 +1,30 @@
+  /* ===== Gallary Page ===== */
+  .item-data{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Chilanka', cursive;
+}
+
+.btn-buy-now{
+      background: transparent;
+      color: #777;
+      border: 1px solid #777;
+      border-radius: 100px;
+      font-family: 'Chilanka', cursive;   
+}
+
+.btn-buy-now:hover{
+  color:white;
+  background-color: #bfba55;
+}
+
+.buy-button{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gallary-items hr{
+  margin: 60px 0;
+}
