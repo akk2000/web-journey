@@ -1,0 +1,30 @@
+.links ul{
+    margin-bottom: 0;
+}
+
+.navigation{
+    padding: 20px 0;
+}
+
+.links ul li a {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #777;
+}
+
+.links ul li .active{
+    color: #bfba55;
+}
+
+.links ul li a:hover{
+    color: #bfba55;
+}
+
+.logo a{
+    color: #777777;
+}
+
+.logo a:hover{
+    text-decoration: none;
+}
