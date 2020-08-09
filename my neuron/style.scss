@@ -3,152 +3,23 @@
 /* Navigation */
 
 
-
-/* Hero */
-.hero{
-    background: url("images/home-bg.jpg");
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 350px 0;
-    text-align: center;
-}
-
-.hero-title{
-    color: white;
-    font-size: 62px;
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-}
-
-.hero-slogan{
-    color: #bfba55;
-    margin-top: 20px;
-    font-family: 'Merriweather', serif;
-}
-
-.btn-hero{
-    background-color: white;
-    color: #444444;
-    border-radius: 100px;
-    padding: 13px 22px;
-    letter-spacing: 2px;
-    font-family: 'Merriweather', serif;
-    margin-top: 50px;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-.btn-hero:hover{
-    background-color: transparent;
-    color: white;
-    border: solid 1px ;
-}
-
-/* Articles */
-.articles{
-    margin-top: 90px;
-    margin-bottom: 90px;
-}
-
-.btn-articles{
-    background:transparent;
-    border: 1px solid #ccc;
-    border-radius: 100px;
-    padding: 10px 20px;
-    letter-spacing: 2px;
-}
-
-.btn-articles:hover{
-    background-color: #bfba55;
-    color: white;
-}
-
-.article-title{
-    font-family: 'Merriweather', serif;
-    margin: 25px 0;
-}
-
-.article-meta{
-    font-family: 'Merriweather', serif;
-    margin: 30px 0;
-}
-
-.article-body{
-    font-family: 'Merriweather', serif;
-    color: #777777;
-    margin-bottom: 25px;
-    line-height: 30px;
-}
-
-.article-title a{
-    color: #222222;
-    text-decoration: none;
-    font-size: 26px;
-    letter-spacing: 0.5px;
-}
-
-.article-title a:hover{
-    color: #bfba55;
-}
-
-.img-author{
-    width: 42px;
-}
-
-.articles span{
-    margin: 0 10px;
-    color: #333333;
-}
-
-.articles hr{
-    margin: 60px 0;
-}
+@import 'scss/general';
+@import 'scss/hero';
+@import 'scss/navigation';
+@import 'scss/articles';
+@import 'scss/footer';
+@import 'scss/about-page';
+@import 'scss/gallary-page';
+@import 'scss/contact-page';
 
 
-/* footer */
-.footer{
-    background-color: black;
-    color: white;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
 
 
-/* ===== About Page ===== */
-
-.banner{
-    text-align: center;
-    padding: 350px 0;
-    background-position: top center;
-    background-repeat: none;
-    background-size: cover;
-    font-size: 62px;
-    color:white;
-    font-family: 'Merriweather', serif;
-}
-
-.about-banner{
-    background: url("images/about-bg.jpg");
-}
-
-.content{
-    margin: 45px 0;
-}
 
 
-/* ===== Gallary ===== */
-.gallary-banner{
-    background: url("images/gallery-bg.jpg");
-    background-repeat: none;
-    background-position: top center;
-    background-size: cover;
-}
 
-/* ===== Contact Page ===== */
-.contact-banner{
-    background:url("images/contact-bg.jpg");
-    background-repeat: none;
-    background-position: top center;
-    background-size: cover;
-}
+
+
+
+
+
