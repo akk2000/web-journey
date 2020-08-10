@@ -4,8 +4,11 @@
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 350px 0;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-title{
@@ -37,4 +40,8 @@
     background-color: transparent;
     color: white;
     border: solid 1px ;
+}
+
+.hero-content{
+    position: relative;
 }

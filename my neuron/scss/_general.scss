@@ -29,3 +29,14 @@ p{
 .pl-0{
     padding-left: 0;
 }
+
+.overlay{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 100%;
+    top:0;
+    right: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}

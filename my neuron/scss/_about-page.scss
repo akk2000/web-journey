@@ -1,6 +1,6 @@
 /* ===== About Page ===== */
 
-.banner{
+%banner{
     text-align: center;
     padding: 350px 0;
     background-position: top center;
@@ -9,12 +9,20 @@
     font-size: 62px;
     color:white;
     font-family: 'Merriweather', serif;
+    position: relative;
 }
 
 .about-banner{
+    @extend %banner;
     background: url("images/about-bg.jpg");
+    background-attachment: fixed;
 }
 
 .content{
     margin: 45px 0;
+}
+
+.about-banner-content{
+    z-index: 1;
+    position: relative;
 }
