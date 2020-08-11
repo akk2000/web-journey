@@ -4,4 +4,35 @@
     color: white;
     padding-top: 80px;
     padding-bottom: 80px;
+
+    ul{
+        li{
+            color: #777777;
+            border: 1px solid #777777;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 50px;
+            border-radius: 100px;
+            margin: 0 30px ;
+
+            a{
+                text-decoration: none;
+                color: #777777;
+
+                &:hover{
+                    color: #bfba55;
+                }
+            }
+
+            &:hover{
+                border-color: #bfba55;
+            }
+        }
+
+
+       
+    }
 }
+
