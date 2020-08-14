@@ -1,0 +1,19 @@
+.work{
+    .col{
+        padding: 28px;
+        
+        &:hover{
+            box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
+        }
+    }
+
+    .works{
+        text-align: center;
+
+        hr{
+            width: 180px;
+            color: #ccc;
+        }
+    }
+}
+
