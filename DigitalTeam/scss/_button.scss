@@ -32,3 +32,19 @@
 
     }
 }
+
+.btn-digital-pricing{
+    color: white;
+    background: $primary-color;
+    border-width: 4px;
+    border-radius: 0;
+    padding: 12px 42px;
+    font-size: 15px;
+
+    &:hover{
+        background: transparent;
+        color: $primary-color;
+        border-color: $primary-color;
+
+    }
+}
